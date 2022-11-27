@@ -1,0 +1,29 @@
+{
+    "name": "ButtonArray",
+    "version": "1.0.0",
+    "description": "",
+    "keywords": "",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/cramduino/ButtonArray.git"
+    },
+    "authors": [
+        {
+            "name": "Grant Le Roux",
+            "email": "grant.leroux+cramduino.button_array@gmail.com",
+            "maintainer": true
+        }
+    ],
+    "license": "GPL-3.0-or-later",
+    "dependencies": [],
+    "frameworks": [ "arduino" ],
+    "platforms": [ "atmelavr" ],
+    "headers": [ "ButtonArray.h" ],
+    "examples": [
+        {
+            "name": "TestButtons1",
+            "base": "examples/TestButtons1",
+            "files": [ "TestButtons1.cpp" ]
+        }
+    ]
+}
